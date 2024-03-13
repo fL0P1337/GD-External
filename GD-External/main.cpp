@@ -5,7 +5,7 @@
 #include <TlHelp32.h>
 #include <vector>
 HWND GD_window;
-DWORD procID;
+DWORD procID;   
 HANDLE hProcess = "GeometryDash.exe";
 uintptr_t GetModuleBaseAddress(const char* modName) {
     HANDLE hSnap = CreateToolhelp32Snapshot(TH32CS_SNAPMODULE | TH32CS_SNAPMODULE32, procID);
