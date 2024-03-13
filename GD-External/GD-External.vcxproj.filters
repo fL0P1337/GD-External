@@ -66,4 +66,9 @@
       <Filter>imgui</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Media\2024-03\GD-External.png">
+      <Filter>Исходные файлы</Filter>
+    </Image>
+  </ItemGroup>
 </Project>
